@@ -1,0 +1,1 @@
+-ResampleThickSliceData 0 -SeedUnitsInPixels 1  -InputDICOMDir  ../Data/tumor    -OutputDir   ../Data/tumor_SPF    -OutputImage  result.mha   -Seeds 3  200 304 11  -MaximumRadius 25  -OutputROI  outputROI.mha

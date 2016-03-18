@@ -1,0 +1,14 @@
+V1.0
+Input a full DICOM image, seed, radius..
+Output a result with ROI size.
+
+Definition and methods are defined seperately.
+The classes are not defined in templates and easy to be compile into libs. 
+
+V1.02 Changes:
+1. Accoding to the need of the project, I change the output and play it on the origin image.. 
+2. I modifid the filter output as vtkImage style..
+
+
+Parameter Type:
+-SeedUnitsInPixels 1  -InputDICOMDir  ../Data/tumor    -OutputDir   ../Data/tumor_SPF    -OutputImage  result.mha   -Seeds 3  200 304 11  -MaximumRadius 25  -OutputROI  outputROI.mha
